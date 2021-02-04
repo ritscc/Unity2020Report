@@ -3,6 +3,7 @@
 \usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
 
  \usepackage{url}
+ \usepackage[dvipdfmx]{graphicx}
 
 \renewcommand\thefootnote{*\arabic{footnote}}
 
@@ -50,8 +51,67 @@
 　\subsection{個人の作成物紹介}
   　ここでは,個人の作成物の紹介を行います.
 
-  　\subsubsection{}
-        \resp{氏名}
+  　\subsubsection{3Dアクションゲーム}
+        \resp{新藤 尚輝}
+        私は,基本的な機能を備えている3DCGを用いたアクションゲームを作成した.\\
+        このゲームは,主に以下のオブジェクトから作成されている.
+        \begin{quote}
+          \begin{itemize}
+            \item DreamForestTree(地形)
+            \item unitychan(プレイヤー)
+            \item ZombiCartoon(敵キャラクター)
+          \end{itemize}
+        \end{quote}
+        上記の三つは共にunityの「Asset Store」からお借りしたものである.また,このゲームには一部効果音・BGMが入っている.それらについて,以下に箇条書きにする.BGMは「魔王魂」,SEは「無料効果音で遊ぼう！効果音検索」からお借りした.\\
+        \begin{quote}
+          \begin{itemize}
+            \item ファンタジー15(BGM)
+            \item ファンタジー13(BGM)
+            \item short\_punch1(SE)
+            \item kick1(SE)
+          \end{itemize}
+        \end{quote}
+        
+        このゲームは,以下のボタンを用いて操作する.\\
+        \begin{quote}
+          \begin{itemize}
+            \item ジャンプ(〇ボタン)
+            \item 画面遷移(Optionsボタン)
+            \item 攻撃(R1ボタン)
+            \item スライディング(×ボタン)
+            \item ロックオン(R3押し込み)
+            \item カメラ操作(Rスティック)
+            \item 移動(Lスティック)
+          \end{itemize}
+        \end{quote}
+        
+        図1は,タイトル画面である.この画面で,Optionsボタンを押すと,ゲームが開始する.\\
+        \begin{figure}[h]
+          \centering
+          \includegraphics[keepaspectratio, scale=0.5]
+               {images/Shindo/start.JPG}
+          \caption{タイトル画面}
+         \end{figure}
+         
+         このゲームは敵キャラクターを10体倒すとゲームクリアとなる.図2の画像が,クリア画面である.\\
+		\begin{figure}[h]
+          \centering
+          \includegraphics[keepaspectratio, scale=0.5]
+               {images/Shindo/clear.JPG}
+          \caption{クリア画面}
+         \end{figure}
+        
+        　また,操作キャラクターのHPが0になると,ゲームオーバーとなる.図3の画像が,ゲームオーバーの画面である.
+         この状態でPS4のoptionsボタン押すと、図1のタイトル画面に戻る.\\
+        \begin{figure}[h]
+          \centering
+          \includegraphics[keepaspectratio, scale=0.5]
+               {images/Shindo/gameover.JPG}
+          \caption{ゲームオーバー画面}
+         \end{figure}
+         以上のような流れで,このゲームが進行する.
+        
+        
 
 　\subsection{年間の活動の上での問題点}
       \resp{山本 京介}
